@@ -61,21 +61,24 @@ KITTI 3D PointGNN, NuScenes 3D CenterPoint, NuScenes 2D detections 的检测结�
 
 Car
 
-| HOTA   | DetA   | AssA   | MOTA   |
-| ------ | ------ | ------ | ------ |
-| 78.037 | 76.802 | 79.515 | 87.246 |
+| | HOTA   | DetA   | AssA   | MOTA   |
+| ----- | ------ | ------ | ------ | ------ |
+|MindSpore版| 78.037 | 76.802 | 79.515 | 87.246 |
+| 原版 |74.39|75.27|74.16|87.82|
 
 Pedestrian
 
-| HOTA   | DetA   | AssA   | MOTA   |
-| ------ | ------ | ------ | ------ |
-| 48.196 | 48.989 | 47.812 | 62.166 |
+| | HOTA   | DetA   | AssA   | MOTA   |
+| ----- | ------ | ------ | ------ | ------ |
+|MindSpore版| 48.196 | 48.989 | 47.812 | 62.166 |
+|原版|39.38|40.60|38.72|49.82|
 
 ### Nuscenes
 
-| AMOTA | MOTA  | MOTP  | IDs  |
+| | AMOTA | MOTA | IDs  |
 | ----- | ----- | ----- | ---- |
-| 0.676 | 0.568 | 0.334 | 1156 |
+|MindSpore版| 0.676 | 0.568| 1156 |
+|原版|0.68|0.57|1156|
 
 Nuscenes 测试结果在：链接：https://pan.baidu.com/s/1uBITCC3G1jChynkkoxhiew 提取码：rd1e
 
