@@ -4,8 +4,8 @@
 
 ## 说明
 
-这是一个使用 MindSpore 框架 EagerMOT 算法的重构版本，增加了搜索超参数的函数 train.py
-原版的论文为 EagerMOT: 3D Multi-Object Tracking via Sensor Fusion。 [链接](https://github.com/aleksandrkim61/EagerMOT)
+这是一个使用 MindSpore 框架 EagerMOT 算法的重构版本，增加了搜索超参数的函数 train.py  
+原版的论文为 EagerMOT: 3D Multi-Object Tracking via Sensor Fusion。 [链接](https://github.com/aleksandrkim61/EagerMOT)  
 
 ## 所需环境
 
@@ -50,10 +50,10 @@ ${root_dir}
 
 ## 数据集准备
 
-下载 Kitti 或 NuScenes 数据集，并下载所需的 2D 和 3D 检测结果
-KITTI 2D MOTSFusion detections/segmentations [链接](https://github.com/tobiasfshr/MOTSFusion) 在 "Results" 下面，有相应的检测结果
-KITTI 2D TrackRCNN detections/segmentations [链接](https://www.vision.rwth-aachen.de/page/mots) 在 "Downloads" 下面，有相应的检测结果
-KITTI 3D PointGNN, NuScenes 3D CenterPoint, NuScenes 2D detections 的检测结果在这个[链接](https://drive.google.com/drive/folders/1MpAa9YErhAZNEJjIrC4Ky21YfNj2jatM)下面
+下载 Kitti 或 NuScenes 数据集，并下载所需的 2D 和 3D 检测结果 
+KITTI 2D MOTSFusion detections/segmentations [链接](https://github.com/tobiasfshr/MOTSFusion) 在 "Results" 下面，有相应的检测结果  
+KITTI 2D TrackRCNN detections/segmentations [链接](https://www.vision.rwth-aachen.de/page/mots) 在 "Downloads" 下面，有相应的检测结果  
+KITTI 3D PointGNN, NuScenes 3D CenterPoint, NuScenes 2D detections 的检测结果在这个[链接](https://drive.google.com/drive/folders/1MpAa9YErhAZNEJjIrC4Ky21YfNj2jatM)下面  
 
 ## 测试结果
 
@@ -80,9 +80,9 @@ Pedestrian
 |MindSpore版| 0.676 | 0.568| 1156 |
 |原版|0.68|0.57|1156|
 
-Nuscenes 测试结果在：链接：https://pan.baidu.com/s/1uBITCC3G1jChynkkoxhiew 提取码：rd1e
+Nuscenes 测试结果在：链接：https://pan.baidu.com/s/1uBITCC3G1jChynkkoxhiew 提取码：rd1e 
 
-kitti 测试结果在：链接：https://pan.baidu.com/s/1KjygxSqpjGlBny0waoMueQ 提取码：2lvf，或 utils/test_result/kitti
+kitti 测试结果在：链接：https://pan.baidu.com/s/1KjygxSqpjGlBny0waoMueQ 提取码：2lvf，或 utils/test_result/kitti 
 
 ## 使用说明
 
