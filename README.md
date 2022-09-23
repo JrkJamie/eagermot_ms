@@ -1,10 +1,10 @@
-# eagermot
+# EagerMOT
 
-这是一个使用MindSpore框架的 Eagermot 算法。
+这是一个使用MindSpore框架的 EagerMOT 算法。
 
 ## 说明
 
-这是一个使用 MindSpore 框架 Eagermot 算法的重构版本，增加了搜索超参数的函数 train.py
+这是一个使用 MindSpore 框架 EagerMOT 算法的重构版本，增加了搜索超参数的函数 train.py
 原版的论文为 EagerMOT: 3D Multi-Object Tracking via Sensor Fusion。 [链接](https://github.com/aleksandrkim61/EagerMOT)
 
 ## 所需环境
