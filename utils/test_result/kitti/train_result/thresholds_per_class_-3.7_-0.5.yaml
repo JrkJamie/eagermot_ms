@@ -1,0 +1,34 @@
+kitti:
+  compensate_ego: true
+  det_scores:
+  - 0
+  - 0
+  first_matching_method: dist_2d_full
+  fusion_iou_threshold:
+  - 0.01
+  - 0.01
+  fusion_mode: bbox
+  iou_3d_threshold: None
+  is_angular: false
+  leftover_matching_thres: 0.3
+  max_age_2d:
+  - 3
+  - 3
+  max_ages:
+  - 3
+  - 3
+  min_hits:
+  - 1
+  - 2
+  second_matching_method: iou
+  seg_scores:
+  - 0.0
+  - 0.9
+  thresholds_per_class:
+    1: -3.6999999999999997
+    2: -0.5
+result:
+  final_unmatched_percentage: 0.1630187606594656
+  first_matched_percentage: 0.784963047185901
+  second_matched_dets2d_second_percentage: 0.6310344827586207
+  second_matched_percentage: 0.2419035029742234
