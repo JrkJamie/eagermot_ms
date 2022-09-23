@@ -94,3 +94,13 @@ python run_tracking.py
 ```
 python train.py
 ```
+## 参考文献
+
+```
+@inproceedings{Kim21ICRA,
+  title     = {EagerMOT: 3D Multi-Object Tracking via Sensor Fusion},
+  author    = {Kim, Aleksandr, O\v{s}ep, Aljo\v{s}a and Leal-Taix{'e}, Laura},
+  booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+  year      = {2021}
+}
+```
